@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Área protegida con contraseña"
+AuthUserFile /kunden/homepages/2/d646083669/htdocs/malaga/meditacion/site/.htpasswd
+require valid-user

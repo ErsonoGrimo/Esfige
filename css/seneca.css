@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto&display=swap');
+
+.sinpadding [class*="col-"] {
+    padding: 0;
+}
+
+
+
+header{
+	height: 180px;
+	background-color: white;
+	width: 100%;
+	padding-top: 20px;
+}
+
+header img{
+	height: 100px;
+	width: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+header h1{
+/*   font-family: 'Roboto', sans-serif; */
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+    color: black;
+}
+
+header h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color:#FEF265
+}
+
+#video{
+	margin-top: 10px;
+	height: auto;
+}
+
+#video iframe{
+	height: 380px;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+
+}
+
+#video h2{
+	font-family: 'Kaushan Script', cursive;
+	 font-size: 30px;
+	color:gray;
+}
+
+nav{;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.btn-video{
+	text-align:left;
+	font-family: 'Kaushan Script', cursive;
+	background-color: black;
+	border-color: white;
+
+}
+
+
+.btn-inactivo {
+	background: gray;
+	color: #aaa;
+	pointer-events: none;
+
+}
+
+.btn-video:hover{
+	border-color: rgba(255,175,75,1);
+}
+
+.btn-group-vertical{
+	width: 90%;
+}
+
+#documento{
+	margin-top: 15px;
+}
+
+#documento h2{
+	font-family: 'Kaushan Script', cursive;
+	 font-size: 30px;
+	color:black;
+}
+
+#recursos{
+	background-color: #4dbfd8;
+	padding: 10px;
+	height: 500px;
+	margin-top: 15px;
+}
+
+#recursos h2{
+	font-family: 'Kaushan Script', cursive;
+	 font-size: 30px;
+	color:white;
+}
+#recursos h3{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 20px;
+	color:#134e5b;
+}
+#recursos a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color:white;
+}
+
+.img-recurso{
+	width: 15%;
+	height: auto;
+	display: inline-block;
+}
+
+.ayuda{
+	margin: 20px;
+	background-color: black;
+	padding: 10px;
+}
+
+.tutor{
+	 font-family: 'Kaushan Script', cursive;
+	 font-size: 30px;
+	 color: white;
+}
+
+.p-tutor{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+footer{
+	height: 150px;
+	background: rgba(255,175,75,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,161,46,1) 81%, rgba(255,146,10,1) 95%, rgba(255,146,10,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,175,75,1)), color-stop(81%, rgba(255,161,46,1)), color-stop(95%, rgba(255,146,10,1)), color-stop(100%, rgba(255,146,10,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,161,46,1) 81%, rgba(255,146,10,1) 95%, rgba(255,146,10,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,161,46,1) 81%, rgba(255,146,10,1) 95%, rgba(255,146,10,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,161,46,1) 81%, rgba(255,146,10,1) 95%, rgba(255,146,10,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,175,75,1) 0%, rgba(255,161,46,1) 81%, rgba(255,146,10,1) 95%, rgba(255,146,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );
+	width: 100%;
+	padding-top: 20px;
+}
+
+footer img{
+	height: 60px;
+	width: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+footer h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color:#FEF265;
+	margin-top:5px;
+}
+
+
+
+
+/** ***************************************** MEDIA QUERYS ************************************************** **
+/** ********************************************************************************************************* **
+/** ********************************************************************************************************* **
+/** ********************************************************************************************************* **/
+
+@media (max-width: 768px){
+
+#video iframe{
+	height: 260px;
+	width: 100%;
+	/**display: block;**/
+	margin: 0 auto;
+
+}
+
+}
+
+

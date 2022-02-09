@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plataforma Esfinge - Curso Meditación MO CHAO -Bormujos-</title>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/seneca.css">
+</head>
+<body>
+	<div class="container-fluid sinpadding">
+
+		<div class="row">
+			<div class="col-12">
+				<header>
+					<img src="../img/logo.png">
+					<h1 class="text-center">MEDITACIÓN MO CHAO. BORMUJOS</h1>
+				</header>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-md-7">
+				<section id="video">
+					<h2>Vídeo Explicativo</h2>
+					<iframe id="video-presentacion" src="../videos/presentacion.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</section>
+			</div>
+
+			<div class="col-12 col-md-5">
+				<nav>
+							<div class="btn-group-vertical btn-group-lg" role="group" aria-label="Basic example">
+  					<button type="button" id="btn-presentacion" class="btn btn-secondary btn-video">PRESENTACIÓN</button> 
+ 						<button type="button" id="btn-unidad1" class="btn btn-secondary btn-video">UNI.1 - INTRODUCCIÓN</button>
+ 			<button type="button" id="btn-unidad2" class="btn btn-secondary btn-video">UNI.2 - BENEFICIOS</button>
+ 			<button type="button" id="btn-unidad3" class="btn btn-secondary btn-video">UNI.3 - MO CHAO</button> 
+
+ 			<!--	<button type="button" id="btn-unidad4" class="btn btn-secondary btn-video">UNI.4 - CLAVES</button>
+ 						<button type="button" id="btn-unidad5" class="btn btn-secondary btn-video">UNI.5 - PRÁCTICA</button>
+  						<button type="button" id="btn-conclusiones" class="btn btn-secondary btn-video bt">CONCLUSIONES FINALES</button>-->
+					</div>
+				</nav>
+			</div>
+
+			<div class="col-12 col-md-8">
+				<section id="documento">
+					<h2>Texto:</h2>
+				<iframe id="documento-presentacion" src="https://docs.google.com/viewer?srcid=1GzoFvSAeDVyDuIf0Ha2bzV7Hvsmkpq7K&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
+				</section>
+			</div>
+
+			<div class="col-12 col-md-4">
+				<section id="recursos">
+					<h2>Recursos - Materíal Multimedia</h2>
+					<h3>*Descarga todos los recursos de esta unidad (formato zip) pulsando en el siguiete enlace:</h3>
+					<p id="n-recurso"><img class= "img-recurso" src="../img/zip.png"><a href="../recursos/presentacion.zip">RECURSOS PRESENTACIÓN</a></p>
+					<img class= "img-fluid" style="margin:0 auto;display: block;" src="../img/recursos.jpg">
+				</section>
+			</div>
+			<div class="col-12 col-md-6">
+				<section class="ayuda">
+    					<h2 class="tutor">¿Tienes dudas o alguna consulta?</h2>
+    					<p class="p-tutor"><i>Envíame un mensaje por whatsapp y te contestaré lo antes posible</i>.</i></p>
+    					<p class="p-tutor"><i> Jesús - Instructor -</i></p>
+				</section>
+			</div>
+
+			<div class="col-12 col-md-6">
+			</div>
+		</div>
+
+	</div>
+
+		<div class="container-fluid sinpadding">
+
+		<div class="row">
+			<div class="col-12">
+				<footer>
+					<img src="../img/logo-esfinge.png">
+					<h2 class="text-center">política de privacidad - Condiciones de Uso - Copyright</h2>
+
+				</footer>
+				
+			</div>
+		</div>
+		
+	</div>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+
+$("#btn-presentacion").click(function(){
+  $("#video-presentacion").attr("src","../videos/presentacion.mp4");
+  $("#documento-presentacion").attr("src","https://docs.google.com/viewer?srcid=1GzoFvSAeDVyDuIf0Ha2bzV7Hvsmkpq7K&pid=explorer&efh=false&a=v&chrome=false&embedded=true");
+  $('p#n-recurso').html('<img class= "img-recurso" src="../img/zip.png"><a href="../recursos/presentacion.zip">RECURSOS PRESENTACIÓN</a>');
+
+});
+
+$("#btn-unidad1").click(function(){
+  $("#video-presentacion").attr("src","../videos/uni1.mp4");
+  $("#documento-presentacion").attr("src","https://docs.google.com/viewer?srcid=1ifK6Kr0hpnC87hgve1toJnIofltz-g8W&pid=explorer&efh=false&a=v&chrome=false&embedded=true");
+  $('p#n-recurso').html('<img class= "img-recurso" src="../img/zip.png"><a href="../recursos/uni1.zip">RECURSOS UNIDAD-1</a>');
+
+});
+
+$("#btn-unidad2").click(function(){
+  $("#video-presentacion").attr("src","../videos/uni2.mp4");
+  $("#documento-presentacion").attr("src","https://docs.google.com/viewer?srcid=1v_AVhUszndjzkKyxSfovzhz-VMpURORI&pid=explorer&efh=false&a=v&chrome=false&embedded=true");
+  $('p#n-recurso').html('<img class= "img-recurso" src="../img/zip.png"><a href="../recursos/uni2.zip">RECURSOS UNIDAD-2</a>');
+
+});
+
+$("#btn-unidad3").click(function(){
+  $("#video-presentacion").attr("src","../videos/uni3.mp4");
+  $("#documento-presentacion").attr("src","https://docs.google.com/viewer?srcid=105oHSfjhPF9b3gNbZVzCf_-LpN0zk37o&pid=explorer&efh=false&a=v&chrome=false&embedded=true");
+  $('p#n-recurso').html('<img class= "img-recurso" src="../img/zip.png"><a href="../recursos/uni3.zip">RECURSOS UNIDAD-3</a>');
+
+});
+
+$("#btn-unidad4").click(function(){
+  $("#video-presentacion").attr("src","../videos/uni4.mp4");
+  $("#documento-presentacion").attr("src","https://docs.google.com/viewer?srcid=1NOzPtfPfrc87kty4RYAK2Q9EaWS8DQPv&pid=explorer&efh=false&a=v&chrome=false&embedded=true");
+  $('p#n-recurso').html('<img class= "img-recurso" src="../img/zip.png"><a href="../recursos/uni4.zip">RECURSOS UNIDAD-4</a>');
+
+});
+
+$("#btn-unidad5").click(function(){
+  $("#video-presentacion").attr("src","../videos/uni5.mp4");
+  $("#documento-presentacion").attr("src","https://docs.google.com/viewer?srcid=1cp_9DvhTMgBPrt1r1Jyke_erKdRRNkVG&pid=explorer&efh=false&a=v&chrome=false&embedded=true");
+  $('p#n-recurso').html('<img class= "img-recurso" src="../img/zip.png"><a href="../recursos/uni5.zip">RECURSOS UNIDAD-5</a>');
+
+});
+
+$("#btn-conclusiones").click(function(){
+  $("#video-presentacion").attr("src","../videos/conclusiones.mp4");
+  $("#documento-presentacion").attr("src","https://docs.google.com/viewer?srcid=1YbRMsLOco96wVhJrAwcYUfbRXA7-Tohw&pid=explorer&efh=false&a=v&chrome=false&embedded=true");
+  $('p#n-recurso').html('<img class= "img-recurso" src="../img/zip.png"><a href="../recursos/conclusiones.zip">RECURSOS CONCLUSIONES FINALES</a>');
+
+});
+
+</script>
+</body>
+</html>
